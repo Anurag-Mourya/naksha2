@@ -11,7 +11,7 @@ import SectionSeven from '../components/homeSections/SectionSeven'
 const Home = () => {
     return (
         <div>
-            {/* <SectionOne />
+            <SectionOne />
             <Container>
                 <SectionTwo />
                 <SectionThree />
@@ -19,7 +19,7 @@ const Home = () => {
             <SectionFoure />
             <SectionFive />
             <SectionSix />
-            <SectionSeven /> */}
+            <SectionSeven />
         </div>
     )
 }
