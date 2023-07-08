@@ -1,0 +1,181 @@
+.bgImg {
+    background-image: url('../../assets/images/section1Img.png');
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.spacing {
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+
+.bgColor {
+    background-color: #3B2E29;
+    padding: 100px 80px;
+}
+
+.headings {
+    position: absolute;
+    left: 50vh;
+    top: 40vh;
+    color: white;
+
+}
+
+.socials {
+    position: relative;
+    top: -8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.headings h1 {
+    width: 73%;
+    font-size: 5.5vw;
+    text-transform: uppercase;
+}
+
+.headings p {
+    width: 73%;
+    font-size: 1.3vw;
+}
+
+.nextCircle {
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+}
+
+.abso {
+    position: relative;
+}
+
+
+.sectionImg img {
+    width: 90%;
+    height: 100%;
+}
+
+.luxuryImg {
+    width: 100%;
+    height: 100%;
+}
+
+.contentStyle {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: rgba(39, 151, 191, 1);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .headings {
+        position: absolute;
+        left: 8vh;
+        top: 14vh;
+    }
+
+    .headings h1 {
+        font-size: 2.4rem;
+    }
+
+    .contentStyle {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .socials {
+        position: relative;
+        top: -8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .bgImg {
+        height: 55vh;
+    }
+
+    .sectionImg img {
+        width: 106%;
+        height: 121%
+    }
+
+    .socials .text-white {
+        margin-left: 18vw;
+        display: flex;
+    }
+}
+
+.text-dark .swiper-button-next, .text-dark .swiper-button-prev {
+    color: black;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    opacity: 0;
+    transition: opacity 0.3s, background-color 0.3s;
+}
+
+.image-container:hover .overlay {
+    background-color: rgba(0, 225, 255, 0.678);
+    opacity: 0.8;
+}
+
+.image-container:hover .text {
+    opacity: 1;
+}
+
+.image-container .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.footerLinks {
+    line-height: 5;
+}
+
+
+/* zoom effect on hover */
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    transition: transform 0.3s;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}

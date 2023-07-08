@@ -1,0 +1,29 @@
+:root {
+    --primary-color: rgba(39, 151, 191, 1);
+    --primary-bgColor: #D9A56D;
+    --font-size: 14px;
+    --letter-space: 4px;
+    --word-space: 5px;
+}
+
+.mainColor {
+    color: var(--primary-color);
+}
+
+.mainBgColor {
+    background-color: var(--primary-bgColor);
+}
+
+/* button style */
+.mainBgColor:hover {
+    background-color: #e79135 !important;
+    color: white !important;
+}
+
+.mainFont {
+    font-size: var(--font-size);
+}
+
+.letter_space {
+    letter-spacing: var(--letter-space);
+}
