@@ -1,0 +1,31 @@
+body{
+    background: #f8f8f8;
+}
+.input_heding{
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_heding h1{
+    color: #2797BF;
+}
+.input_heding h1:hover{
+    border-bottom: 2px solid #2797BF;
+    line-height: 22px;
+    
+}
+
+.input_heding p{
+    color: #000;
+    font-weight: 500;
+}
+.input_heding p:hover{
+    border-bottom: 3px solid #2797BF;
+    line-height: 10px;
+    
+}
