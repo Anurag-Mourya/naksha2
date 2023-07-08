@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import imgLogo from '../../assets/images/Mask group (9).png'
-import { Star } from 'react-bootstrap-icons';
+// import { Star } from 'react-bootstrap-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
@@ -23,7 +23,7 @@ const SectionSix = () => {
                     enjoying truly exclusive and authentic cultural experiences. We can fulfil your bucket-list dreams.</p></div>
 
             </div>
-            <Container>
+            <Container >
 
                 <Swiper
                     spaceBetween={25}
@@ -40,10 +40,32 @@ const SectionSix = () => {
                             slidesPerView: 4,
                         },
                     }}
-                    className="text-dark"
+                    className="text-dark "
                 >
+                    <SwiperSlide >
+                        <div className="card mb-3 py-2" style={{ padding: '10%',  border: 'none' }}>
+                            <div className="px-4 py-2"><img src={imgLogo} alt="logo" width={60} /><span className='mx-3'>Manoj</span></div>
+                            <div className="card-body">
+                                <p className="card-text mainFont" >Few things command more respect than hand
+                                    work, imgreite, dedication and the ability so
+                                    follow through. These are among the many
+                                    attribute are experienced them start to finish
+                                    when organ ting oru trip to india with travel
+                                    agent.</p>
+                            </div>
+                            <div  className="px-4 d-flex justify-content-between align-items-center mt-4"><h6 className='heading-1 mt-2'>March 23</h6>
+                                <div className='' >
+                                    <FontAwesomeIcon icon={faStar} className='text-warning fs-5' />
+                                    <FontAwesomeIcon icon={faStar} className='text-warning mx-1 fs-5' />
+                                    <FontAwesomeIcon icon={faStar} className='text-warning fs-5' />
+                                    <FontAwesomeIcon icon={faStar} className='text-warning mx-1 fs-5' />
+                                    <FontAwesomeIcon icon={faStar} className='text-warning fs-5' />
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card mb-3 py-2" style={{ maxWidth: '18rem', border: 'none' }}>
+                        <div className="card mb-3 py-2" style={{ padding: '10%', border: 'none' }}>
                             <div className="px-4 py-2"><img src={imgLogo} alt="logo" width={60} /><span className='mx-3'>Manoj</span></div>
                             <div className="card-body">
                                 <p className="card-text mainFont">Few things command more respect than hand
@@ -65,7 +87,7 @@ const SectionSix = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card mb-3 py-2" style={{ maxWidth: '18rem', border: 'none' }}>
+                        <div className="card  mb-3 py-2" style={{ padding: '10%', border: 'none' }}>
                             <div className="px-4 py-2"><img src={imgLogo} alt="logo" width={60} /><span className='mx-3'>Manoj</span></div>
                             <div className="card-body">
                                 <p className="card-text mainFont">Few things command more respect than hand
@@ -87,29 +109,7 @@ const SectionSix = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card mb-3 py-2" style={{ maxWidth: '18rem', border: 'none' }}>
-                            <div className="px-4 py-2"><img src={imgLogo} alt="logo" width={60} /><span className='mx-3'>Manoj</span></div>
-                            <div className="card-body">
-                                <p className="card-text mainFont">Few things command more respect than hand
-                                    work, imgreite, dedication and the ability so
-                                    follow through. These are among the many
-                                    attribute are experienced them start to finish
-                                    when organ ting oru trip to india with travel
-                                    agent.</p>
-                            </div>
-                            <div className="px-4 d-flex justify-content-between align-items-center mt-4"><h6 className='heading-1 mt-2'>March 23</h6>
-                                <div className=''>
-                                    <FontAwesomeIcon icon={faStar} className='text-warning fs-5' />
-                                    <FontAwesomeIcon icon={faStar} className='text-warning mx-1 fs-5' />
-                                    <FontAwesomeIcon icon={faStar} className='text-warning fs-5' />
-                                    <FontAwesomeIcon icon={faStar} className='text-warning mx-1 fs-5' />
-                                    <FontAwesomeIcon icon={faStar} className='text-warning fs-5' />
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="card mb-3 py-2" style={{ maxWidth: '18rem', border: 'none' }}>
+                        <div className="card mb-3 py-2" style={{ padding: '10%', border: 'none' }}>
                             <div className="px-4 py-2"><img src={imgLogo} alt="logo" width={60} /><span className='mx-3'>Manoj</span></div>
                             <div className="card-body">
                                 <p className="card-text mainFont">Few things command more respect than hand
@@ -132,7 +132,7 @@ const SectionSix = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card mb-3 py-2" style={{ maxWidth: '18rem', border: 'none' }}>
+                        <div className="card mb-3 py-2" style={{ padding: '10%', border: 'none' }}>
                             <div className="px-4 py-2"><img src={imgLogo} alt="logo" width={60} /><span className='mx-3'>Manoj</span></div>
                             <div className="card-body">
                                 <p className="card-text mainFont">Few things command more respect than hand

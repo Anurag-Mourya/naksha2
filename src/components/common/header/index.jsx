@@ -28,7 +28,7 @@ const Header = () => {
                             <NavLink className='mx-4 text-white fw-bold nav-link' href="/about-us">
                                 ABOUT US
                             </NavLink>
-                            <NavLink className='mx-4 text-white fw-bold nav-link' href="/contact">
+                            <NavLink className='mx-4 text-white fw-bold nav-link' to="/contact-us   ">
                                 CONTACT US
                             </NavLink>
                         </Nav>
