@@ -1,8 +1,15 @@
 import React from 'react'
+import ToursSectionOne from '../components/toursAndPackages/ToursSectionOne'
+import ToursSectionTwo from '../components/toursAndPackages/ToursSectionTwo'
+
+
 
 const ToursAndPackages = () => {
     return (
-        <div>ToursAndPackages</div>
+        <div>
+            <ToursSectionOne />
+            <ToursSectionTwo />
+        </div>
     )
 }
 

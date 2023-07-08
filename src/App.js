@@ -28,13 +28,13 @@ const App = () => {
 
   return (
     <>
-      {
+      {/* {
         pathname === '/' ?
           <>
             {scroll ? <Header /> : null}
           </>
           : <Header />
-      }
+      } */}
 
       <Routes>
         {routes.map((data, index) => (

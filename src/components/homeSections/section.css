@@ -8,6 +8,16 @@
     position: relative;
 }
 
+.packegeBgImg {
+    background-image: url('../../assets/images/package.png');
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
 .spacing {
     letter-spacing: 3px;
     font-weight: 400;
@@ -37,7 +47,7 @@
 }
 
 .headings h1 {
-    width: 73%;
+    width: 100%;
     font-size: 5.5vw;
     text-transform: uppercase;
 }
@@ -85,6 +95,12 @@
         top: 14vh;
     }
 
+    .headingspac {
+        position: absolute;
+        left: 8vh;
+        top: 24vh;
+    }
+
     .headings h1 {
         font-size: 2.4rem;
     }
@@ -104,6 +120,10 @@
     }
 
     .bgImg {
+        height: 55vh;
+    }
+
+    .packegeBgImg {
         height: 55vh;
     }
 
