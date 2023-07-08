@@ -2,30 +2,32 @@
     font-weight: 500;
 }
 
-/* .relativeImg {
-    position: relative;
-} */
+.font1 {
+    font-size: 15px;
+    font-weight: 500;
+}
 
 .cardImg {
     background-image: url('../../assets/images/bestPackage.png');
     width: 100%;
     height: 32vh;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    border-radius: 4%;
 }
 
 
 .offerImg {
     width: 53%;
     height: 47%;
+    position: relative;
 }
 
 .offerText {
     position: absolute;
-    bottom: 63%;
-    top: 28%;
+    bottom: 79%;
+    top: 18%;
     transform: rotate(314deg);
     font-weight: 500;
     font-size: 14px;
